@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FX Radio</title>
+	<link rel="stylesheet" href="assets/style.css" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+	<link rel="icon" href="assets/favicon16x16.png" type="image/png" sizes="16x16">
+	<link rel="icon" href="assets/favicon24x24.png" type="image/png" sizes="24x24">
+	<script defer type="text/javascript" src="assets/play.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+	<!--<div class="loader"></div>-->
+
+	<video loop autoplay preload muted class="video">
+		<!--<source src="assets/0.mp4" type="video/mp4">-->
+		<source src="http://ftp.inn.eu/frontend/L2/L2_video_l3_ru.mp4" type="video/mp4"> 
+		Your browser does not support the video tag.
+	</video>
+
+		<div id="container">
+
+			<h1>FX RADIO</h1>
+
+			<center>
+				<audio id="player" class="player" src="http://78.129.189.182:6796/;"></audio>
+
+				<button id="control-btn" class="button" onclick="togglePlay()"><i class="fas fa-play"></i></button>
+			</center>
+
+		</div>
+	
+</body>
+</html>
